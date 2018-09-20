@@ -1,0 +1,205 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1,initial-scale=1.0,user-scalable=no">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../images/favicon/favicon-16x16.png">
+
+<link rel="stylesheet" type="text/css" href="../css/reset.css">
+<link rel="stylesheet" type="text/css" href="../css/fonts.css">
+<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="../css/swiper.min.css">
+<link rel="stylesheet" type="text/css" href="../css/offcanvas.css">
+<link rel="stylesheet" type="text/css" href="../css/ie10-viewport-bug-workaround.css">
+<link rel="stylesheet" type="text/css" href="../css/aos.css">
+<link rel="stylesheet" type="text/css" href="../css/common.css">
+<link rel="stylesheet" type="text/css" href="../css/header.css">
+
+<link rel="stylesheet" type="text/css" href="../css/Footer.css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+
+<script src="../js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="../js/Popper.js"></script>
+<script type="text/javascript" src="../js/bootstrap.min.js"></script> 
+
+<script src="../js/swiper.min.js"></script>
+<script type="text/javascript" src="../js/aos.js"></script>
+<script src="../js/common.js"></script>
+</head>
+
+<body>
+	<!--All Header-->
+	<div class="HeaderPage">
+
+       
+        <div class="Headertop">
+        	<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Tiếng Việt
+						</button>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							<a class="dropdown-item" href="#">Tiếng Việt</a>
+							<a class="dropdown-item" href="#">English</a>
+						</div>
+						<a class="email_fptTH" href="mailto:fpttruyenhinh@gmail.com">Email: fpttruyenhinh@gmail.com</a>
+						<a class="phone_fptTH" href="tel:19001566">Hotline: 19001566</a>
+						<div class="group_login">
+							<a class="txt">ĐĂNG NHẬP</a>
+							<div class="txt space">|</div>
+							<a class="txt">ĐĂNG KÝ</a>
+						</div>
+					</div>
+				</div>
+            </div>
+        </div>
+        <div class="Header_navigation">
+        	<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<img class="logo" src="../images/logo.png" />
+						<div class="navigation">
+							<ul>
+								<li class="par active">
+									<a class="txt">TRUYỀN HÌNH FPT</a>
+									<div class="bg_navigation_2">
+										<div class="container">
+										<ul>
+											<li class="item">
+												<a class="txt FPTTH active_1">Giới Thiệu FPT TH</a>
+											</li>
+											<li class="item">
+												<a class="txt csbm">Chính sách bảo mật</a>
+											</li>
+											<li class="item">
+												<a class="txt ttdv">Thoả thuận dịch vụ</a>
+											</li>
+										</ul>
+										</div>
+									</div>
+								</li>
+								<li class="par">
+									<a class="txt ">SẢN PHẨM DỊCH VỤ</a>
+									<div class="bg_navigation_2">
+										<div class="container">
+										<ul>
+											<li class="item">
+												<a class="txt FPTTH active_1">Giới Thiệu FPT TH 1</a>
+											</li>
+											<li class="item">
+												<a class="txt csbm">Chính sách bảo mật 1</a>
+											</li>
+											<li class="item">
+												<a class="txt ttdv">Thoả thuận dịch vụ 1</a>
+											</li>
+										</ul>
+										</div>
+									</div>
+								</li>
+								<li><a class="txt">TIN TỨC</a></li>
+								<li class="par">
+									<a class="txt">HỖ TRỢ</a>
+									<div class="bg_navigation_2">
+										<div class="container">
+										<ul>
+											<li class="item">
+												<a class="txt FPTTH active_1">Giới Thiệu FPT TH 2</a>
+											</li>
+											<li class="item">
+												<a class="txt csbm">Chính sách bảo mật 2</a>
+											</li>
+											<li class="item">
+												<a class="txt ttdv">Thoả thuận dịch vụ 2</a>
+											</li>
+										</ul>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+            </div>
+        </div>
+    </div>
+    <!--All Header End-->
+    <!-- TemplateBeginEditable name="Body" -->
+	<!-- TemplateEndEditable -->
+   
+    <!--Footer-->
+	<div class="Footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-2">
+					<h3 class="title">TRUYỀN HÌNH FPT</h3>
+					<ul class="ul_link">
+						<li><a>Giới Thiệu FPT TH</a></li>
+						<li><a>Chính sách bảo mật</a></li>
+						<li><a>Thoả thuận dịch vụ</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-3">
+					<h3 class="title">SẢN PHẨM DỊCH VỤ</h3>
+					<ul class="ul_link">
+						<li><a>Dịch vụ truyền hình</a></li>
+						<li><a>Thiết bị FPT TV</a></li>
+						<li><a>Danh sách kênh</a></li>
+						<li><a>Gói dịch vụ</a></li>
+						<li><a>Ứng dụng</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-2">
+					<h3 class="title">TIN TỨC</h3>
+					<ul class="ul_link">
+						<li><a>Truyền hình</a></li>
+						<li><a>Điện ảnh</a></li>
+						<li><a>Thể thao</a></li>
+						<li><a>Sự kiện</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-2">
+					<h3 class="title">HỖ TRỢ</h3>
+					<ul class="ul_link">
+						<li><a>Hướng dẫn</a></li>
+						<li><a>Phòng giao dịch</a></li>
+						<li><a>Liên hệ</a></li>
+					</ul>
+				</div>
+				
+				<div class="col-lg-3">
+					<h3 class="title">TRUYỀN HÌNH FPT</h3>
+					<div class="group_input_email">
+						<input class="input_email" type="input" placeholder="Nhập email"></input>
+						<button type="submit" class="btn btn-primary">Gửi</button>
+					</div>
+					<ul class="social">
+						<li>
+							<a class="ico_fb"></a>
+						</li>
+						<li>
+							<a class="ico_youtube"></a>
+						</li>
+					</ul>
+				</div>
+            </div>
+			<hr>
+			<p class="copyright">@fpt truyen hinh</p>
+        </div>
+    </div>			
+    <!--Footer End-->  
+    
+    <a class="btn-top" href="javascript:void(0);" title="Top" ><i class="material-icons">keyboard_arrow_up</i></a>
+</body>
+
+
+<!-- TemplateBeginEditable name="footer" -->
+
+<!-- TemplateEndEditable -->
+
+</html>

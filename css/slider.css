@@ -1,0 +1,152 @@
+.carousel {
+  position: relative;
+  height: 500px;
+  top: 0;
+}
+.carousel .carousel-inner {
+  position: absolute;
+  top: 0;
+}
+.carousel .carousel-inner .item {
+  background-repeat: no-repeat !important;
+  background-repeat: no-repeat;
+  background-color: #f6f6f6;
+  background-size: cover;
+  background-position: center;
+}
+.carousel .swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+}
+.swiper-pagination-white .swiper-pagination-bullet {
+  background-color: #000;
+}
+.swiper-pagination-white .swiper-pagination-bullet-active {
+  background-color: #0eb1aa;
+}
+.slider_banner {
+  padding-top: 157px;
+}
+.carousel_gioithieu .d-table {
+  height: 312px;
+}
+.carousel_gioithieu .d-table-cell {
+  vertical-align: middle;
+}
+.carousel_gioithieu .title {
+  font-size: 28px;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 36px;
+  margin-top: 24px;
+}
+.carousel_gioithieu .txt {
+  font-size: 16px;
+  color: #fff;
+}
+.carousel_gioithieu .line_btn {
+  margin-top: 28px;
+}
+.carousel_gioithieu .swiper-slide {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.carousel_thethao {
+  height: 440px;
+}
+.carousel_thethao .swiper-slide {
+  position: relative;
+}
+.carousel_thethao .content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: rgba(254, 254, 254, 0);
+  background: -moz-linear-gradient(top, rgba(254, 254, 254, 0) 0%, rgba(0, 0, 0, 0.9) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(254, 254, 254, 0)), color-stop(100%, rgba(0, 0, 0, 0.9)));
+  background: -webkit-linear-gradient(top, rgba(254, 254, 254, 0) 0%, rgba(0, 0, 0, 0.9) 100%);
+  background: -o-linear-gradient(top, rgba(254, 254, 254, 0) 0%, rgba(0, 0, 0, 0.9) 100%);
+  background: -ms-linear-gradient(top, rgba(254, 254, 254, 0) 0%, rgba(0, 0, 0, 0.9) 100%);
+  background: linear-gradient(to bottom, rgba(254, 254, 254, 0) 0%, rgba(0, 0, 0, 0.9) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefefe', endColorstr='#000000', GradientType=0);
+}
+.carousel_thethao .content .tag {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #0eb1aa;
+  padding: 4px 12px;
+  display: inline-block;
+  color: #fff;
+}
+.carousel_thethao .content .title {
+  font-size: 24px;
+  color: #fff;
+  font-weight: bold;
+  line-height: 30px;
+  margin-top: 8px;
+  margin-bottom: 4px;
+  height: 60px;
+  display: block;
+  overflow: hidden;
+}
+.carousel_thethao .content .title a {
+  color: #fff !important;
+}
+.carousel_thethao .content .time {
+  font-size: 16px;
+  color: #fff;
+}
+.slider_small {
+  height: 210px;
+}
+.slider_small .swiper-slide {
+  position: relative;
+}
+.slider_small .content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  background: rgba(254, 254, 254, 0);
+  background: -moz-linear-gradient(top, rgba(254, 254, 254, 0) 0%, rgba(0, 0, 0, 0.9) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(254, 254, 254, 0)), color-stop(100%, rgba(0, 0, 0, 0.9)));
+  background: -webkit-linear-gradient(top, rgba(254, 254, 254, 0) 0%, rgba(0, 0, 0, 0.9) 100%);
+  background: -o-linear-gradient(top, rgba(254, 254, 254, 0) 0%, rgba(0, 0, 0, 0.9) 100%);
+  background: -ms-linear-gradient(top, rgba(254, 254, 254, 0) 0%, rgba(0, 0, 0, 0.9) 100%);
+  background: linear-gradient(to bottom, rgba(254, 254, 254, 0) 0%, rgba(0, 0, 0, 0.9) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefefe', endColorstr='#000000', GradientType=0);
+}
+.slider_small .content .tag {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 500;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 4px 12px;
+  display: inline-block;
+  color: #fff;
+}
+.slider_small .content .title {
+  font-size: 14px;
+  color: #fff;
+  font-weight: bold;
+  line-height: 18px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  height: 36px;
+  display: block;
+  overflow: hidden;
+  font-weight: 500;
+}
+.slider_small .content .title a {
+  color: #fff !important;
+}
