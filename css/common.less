@@ -102,10 +102,20 @@ ul{margin: 0;padding: 0;}
 	.col-lg-2,.col-lg-3{    padding-right: 5px;padding-left: 5px;}
 	.social{margin-top: 20px;}
 	.social li{display: inline-block;margin-right: 12px;
-		.ico_fb{background: url(http://htmlpreview.github.io/?https://github.com/whitewolf1287/websiteTHFPT/blob/master/images/fb.svg) no-repeat center center; width: 31px;height: 31px;display: inline-block;}
-		.ico_youtube{background: url(http://htmlpreview.github.io/?https://github.com/whitewolf1287/websiteTHFPT/blob/master/images/youtube.svg) no-repeat center center; width: 31px;height: 31px;display: inline-block;}
+		.ico_fb{background-repeat: no-repeat;
+				background-image: url(../images/fb.png);
+				background-image: -webkit-image-set(url(../images/fb.png) 1x,
+					url(../images/fb@2x.png) 2x,
+					url(../images/fb@3x.png) 3x);
+			width: 32px;height: 32px;display: inline-block;}
+		.ico_youtube{background-repeat: no-repeat;
+				background-image: url(../images/youtube.png);
+				background-image: -webkit-image-set(url(../images/youtube.png) 1x,
+					url(../images/youtube@2x.png) 2x,
+					url(../images/youtube@3x.png) 3x);
+			width: 32px;height: 32px;display: inline-block;}
 	}
-	.copyright{color:rgba(0,0,0,0.8);font-size: 16px;}
+	.copyright{color:rgba(0,0,0,0.8);font-size: 16px;margin-bottom: 0;padding-bottom: 10px;}
 }
 .btn-top {
 	background-color: #00968f;

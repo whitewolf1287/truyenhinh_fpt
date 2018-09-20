@@ -87,5 +87,16 @@ $( document ).ready(function() {
 		else{$(".HeaderPage").removeClass("scaleheader");}
 	});
 	
+	$( ".par" ).hover(
+	  function() {
+		$( this ).addClass( "hover" );
+		if($( ".par" ).hasClass('active') == true){
+			$('.par.active').addClass('disable');
+		}  
+	  }, function() {
+		$( this ).removeClass( "hover" );
+		  $('.par.active').removeClass('disable');
+	  }
+	);
 	
 });
