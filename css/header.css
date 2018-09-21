@@ -178,18 +178,15 @@
   display: none;
 }
 .Header_navigation .active,
-.Header_navigation .navigation li.par:hover,
-.Header_navigation .active.disable {
+.Header_navigation .navigation li.par:hover {
   position: relative;
 }
 .Header_navigation .active .bg_navigation_2,
-.Header_navigation .navigation li.par:hover .bg_navigation_2,
-.Header_navigation .active.disable .bg_navigation_2 {
+.Header_navigation .navigation li.par:hover .bg_navigation_2 {
   display: block;
 }
 .Header_navigation .active:after,
-.Header_navigation .navigation li.par:hover:after,
-.Header_navigation .active.disable:after {
+.Header_navigation .navigation li.par:hover:after {
   content: "";
   width: 0;
   height: 0;
@@ -227,6 +224,9 @@
 .Header_navigation .navigation li.par:hover > .txt:after {
   background-image: url(../images/icon_dropdown_ac.png);
   background-image: -webkit-image-set(url(../images/icon_dropdown_ac.png) 1x, url(../images/icon_dropdown_ac@2x.png) 2x, url(../images/icon_dropdown_ac@3x.png) 3x);
+}
+.Header_navigation .active.disable .bg_navigation_2 {
+  display: none;
 }
 .HeaderPage.scaleheader {
   height: 110px;
