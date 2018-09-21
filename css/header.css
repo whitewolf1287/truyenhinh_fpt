@@ -165,10 +165,11 @@
 .Header_navigation .bg_navigation_2 ul li {
   display: inline-block;
   margin-left: 35px;
-  padding: 12px 0;
+  padding: 14px 0;
 }
 .Header_navigation .bg_navigation_2 ul li a.txt {
   color: #fff;
+  font-size: 14px;
 }
 .Header_navigation .bg_navigation_2 ul li .txt:after {
   display: none;
