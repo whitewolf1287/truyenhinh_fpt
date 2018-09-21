@@ -104,6 +104,10 @@ a[x-apple-data-detectors] {
   font-weight: inherit !important;
   line-height: inherit !important;
 }
+.ellipsis_text {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
 .material-icons {
   font-family: 'Material Icons';
   font-weight: normal;

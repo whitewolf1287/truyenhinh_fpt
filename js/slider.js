@@ -7,7 +7,7 @@ $( document ).ready(function() {
 		loop: true,
     });
 	var swiper2 = new Swiper('.swiper-container.carousel_gioithieu', {
-       
+        autoplay:5000,
         paginationClickable: true,
         nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev',

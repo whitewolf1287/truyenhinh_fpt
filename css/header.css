@@ -117,6 +117,9 @@
   top: 6px;
   right: 0;
 }
+.Header_navigation .navigation li.par:first-child {
+  padding-right: 0;
+}
 .Header_navigation .bg_navigation_2 {
   display: none;
   background-color: #00968f;

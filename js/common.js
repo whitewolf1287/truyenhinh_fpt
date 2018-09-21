@@ -99,6 +99,9 @@ $( document ).ready(function() {
 	  }
 	);
 	
+	var the_obj = $('.3line').ThreeDots({
+				max_rows: 3
+			});
 
 	
 	
