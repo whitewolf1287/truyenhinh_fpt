@@ -154,10 +154,13 @@
 }
 .FPT_TH .list_bg .item_hidden .bg_w {
   opacity: 0;
+  border: 5px solid #fff;
   transition: all 0.3s;
 }
 .FPT_TH .list_bg .item_hidden:hover .bg_w {
   opacity: 1;
+  padding: 5px;
+  border: 5px solid #f4f4f4;
 }
 .FPT_TH .list_bg .item_show .bg_w {
   opacity: 1;
