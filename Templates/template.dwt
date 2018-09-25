@@ -77,7 +77,7 @@
 											</li>
 											<li class="item">
 												<a class="txt csbm">Thiết bị FPT TV</a>
-											</li>
+											</li><!---->
 											<li class="item">
 												<a class="txt ttdv">Danh sách kênh</a>
 											</li>
@@ -97,6 +97,9 @@
 										<div class="container">
 										<ul>
 											<li class="item">
+												<a class="txt ttdv">Sự kiện</a>
+											</li>
+											<li class="item">
 												<a class="txt FPTTH active_1">Truyền hình</a>
 											</li>
 											<li class="item">
@@ -104,9 +107,6 @@
 											</li>
 											<li class="item">
 												<a class="txt ttdv">Thể thao</a>
-											</li>
-											<li class="item">
-												<a class="txt ttdv">Sự kiện</a>
 											</li>
 										</ul>
 										</div>
@@ -118,13 +118,14 @@
 										<div class="container">
 										<ul>
 											<li class="item">
-												<a class="txt FPTTH active_1">Hướng dẫn</a>
+												<a class="txt ttdv">Liên hệ</a>
 											</li>
+											
 											<li class="item">
 												<a class="txt csbm">Phòng giao dịch</a>
 											</li>
 											<li class="item">
-												<a class="txt ttdv">Liên hệ</a>
+												<a class="txt FPTTH active_1">Hướng dẫn</a>
 											</li>
 										</ul>
 										</div>
@@ -136,13 +137,14 @@
 										<div class="container">
 										<ul>
 											<li class="item">
-												<a class="txt FPTTH active_1">Giới Thiệu FPT TH</a>
+												<a class="txt ttdv">Thoả thuận dịch vụ</a>
 											</li>
 											<li class="item">
 												<a class="txt csbm">Chính sách bảo mật</a>
 											</li>
+											
 											<li class="item">
-												<a class="txt ttdv">Thoả thuận dịch vụ</a>
+												<a class="txt FPTTH active_1">Giới Thiệu FPT TH</a>
 											</li>
 										</ul>
 										</div>

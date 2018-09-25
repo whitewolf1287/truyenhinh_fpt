@@ -1,6 +1,6 @@
 .chuong_trinh{margin-top: 64px;
 	.col-lg-3{padding-left: 9px;padding-right: 9px;}
-	.title{margin-bottom:60px; }
+	.title{margin-bottom:48px; }
 	.title{text-align: center;color: rgba(0,0,0,0.8);font-size: 34px;font-weight: bold; }
 	.icon_1{width: 80px;height: 80px;display:block;margin: 32px auto 16px auto;
 			background-image: url(../images/truyenhinh.png);
@@ -34,10 +34,11 @@
 			background-repeat: no-repeat;
 			background-position: center center;
 	}
-	.item{border: 1px solid #ebebeb;padding-left: 8px;padding-right: 8px;padding-bottom: 12px;transition: all 0.3s;
+	.item{border: 1px solid #ebebeb;padding-left: 8px;padding-right: 8px;padding-bottom: 12px;transition: all 0.3s;box-shadow: 0 8px 16px rgba(255,255,255,.18);
+    background-color: #fff;color: rgba(0, 0, 0, 0.6);
 		.tit{font-weight: bold;color: #0eb1aa;font-size: 20px;text-align: center;margin-bottom: 16px;text-transform: uppercase;}
-		.text{font-size: 16px;color: rgba(0,0,0,0.6);text-align: center;}
-		&:hover{background-color: #0eb1aa;
+		.text{font-size: 16px;color: rgba(0,0,0,0.6);text-align: center;height: 72px;display: block;overflow: hidden;transition: all 0.1s;}
+		&:hover{background-color: #0eb1aa;box-shadow: 0 8px 16px rgba(0,0,0,.18);border: 1px solid #0eb1aa;
 			.tit{color: #fff;}
 			.text{color: #fff;}
 			.icon_1{
@@ -70,7 +71,9 @@
 }
 .FPT_TH{margin-top: 128px;
 	.list_bg{margin-top: 60px;margin-left: 0;margin-right: 0;
-		.item{position: relative;}
+		.item{position: relative;
+			img{border:5px solid #fff;}
+		}
 		.color_org{color:#ff8200;text-align: center;font-weight: bold;font-size: 26px;line-height: 26px;}
 		.color_cyan{color:#0eb1aa;text-align: center;font-weight: bold;font-size: 26px;line-height: 26px;}
 		.d-table-cell{vertical-align: middle;text-align: center;position: relative}
@@ -90,7 +93,9 @@
 	}
 	.bg{width: 100%;display: table;background-position: center center;background-repeat: no-repeat;height: 100%;}
 	.why_FPT{margin-top:48px;
-		p{margin-bottom: 0;font-size: 14px;}
+		p{margin-bottom: 0;font-size: 14px;
+			span{color: rgba(0,0,0,0.7);}
+		}
 		.title{font-weight: bold;font-size: 28px;color: rgba(0,0,0,0.8);margin-top: 24px;margin-bottom: 24px;}
 		.icon_time{width: 42px;height: 42px;display: block;margin-bottom: 12px;
 				background-image: url(../images/time.png);
@@ -114,7 +119,9 @@
 .Slider_gioithieu{margin-top: 80px;}
 .Goi_dv{padding-top: 80px;background-color: #f7f7f7;padding-bottom: 60px;
 	.subtext{margin-bottom: 32px;}
-	.item{background-color: #fff;box-shadow: 0 0 3px #ccc;height: 340px;padding-left: 72px;padding-right: 48px;}
+	.item{background-color: #fff;box-shadow: 0 0 3px #ccc;height: 340px;padding-left: 72px;padding-right: 48px;transition: all 0.2s;
+		&:hover{box-shadow: 0 8px 16px rgba(0, 0, 0, 0.18);}
+	}
 	.list_pack{margin-top: 20px;position: relative;
 		.item:after{content: "";position: absolute;bottom:0;right: 10px;width: 0;
 				height: 0;
@@ -134,7 +141,8 @@
 	.pack1{background: url(../images/demo/pack_1.png) no-repeat center center;height: 340px;}
 	.pack2{background: url(../images/demo/pack_2.png) no-repeat center center;height: 340px;}
 	.bg_w{background-color: rgba(255,255,255,0.95);height: 100%;opacity: 0;transition: all 0.3s ;}
-	.pack{box-shadow: 0 0 3px #ccc;
+	.pack{box-shadow: 0 0 3px #ccc;transition: all 0.2s;
+		&:hover{box-shadow: 0 8px 16px rgba(0, 0, 0, 0.18);}
 		&:hover .bg_w{opacity: 1;}
 	}
 	.col-lg-6{padding-right: 10px;padding-left: 10px;}

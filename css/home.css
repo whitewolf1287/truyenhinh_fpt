@@ -6,7 +6,7 @@
   padding-right: 9px;
 }
 .chuong_trinh .title {
-  margin-bottom: 60px;
+  margin-bottom: 48px;
 }
 .chuong_trinh .title {
   text-align: center;
@@ -60,6 +60,9 @@
   padding-right: 8px;
   padding-bottom: 12px;
   transition: all 0.3s;
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.18);
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.6);
 }
 .chuong_trinh .item .tit {
   font-weight: bold;
@@ -73,9 +76,15 @@
   font-size: 16px;
   color: rgba(0, 0, 0, 0.6);
   text-align: center;
+  height: 72px;
+  display: block;
+  overflow: hidden;
+  transition: all 0.1s;
 }
 .chuong_trinh .item:hover {
   background-color: #0eb1aa;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.18);
+  border: 1px solid #0eb1aa;
 }
 .chuong_trinh .item:hover .tit {
   color: #fff;
@@ -112,6 +121,9 @@
 }
 .FPT_TH .list_bg .item {
   position: relative;
+}
+.FPT_TH .list_bg .item img {
+  border: 5px solid #fff;
 }
 .FPT_TH .list_bg .color_org {
   color: #ff8200;
@@ -168,6 +180,9 @@
   margin-bottom: 0;
   font-size: 14px;
 }
+.FPT_TH .why_FPT p span {
+  color: rgba(0, 0, 0, 0.7);
+}
 .FPT_TH .why_FPT .title {
   font-weight: bold;
   font-size: 28px;
@@ -215,6 +230,10 @@
   height: 340px;
   padding-left: 72px;
   padding-right: 48px;
+  transition: all 0.2s;
+}
+.Goi_dv .item:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.18);
 }
 .Goi_dv .list_pack {
   margin-top: 20px;
@@ -290,6 +309,10 @@
 }
 .Goi_dv .pack {
   box-shadow: 0 0 3px #ccc;
+  transition: all 0.2s;
+}
+.Goi_dv .pack:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.18);
 }
 .Goi_dv .pack:hover .bg_w {
   opacity: 1;
