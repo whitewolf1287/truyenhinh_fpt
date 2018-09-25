@@ -1,5 +1,6 @@
 $( document ).ready(function() {
 	var swiper = new Swiper('.swiper-container.carousel', {
+		autoplay:3000,
         pagination: '.carousel-pagination',
         paginationClickable: true,
         spaceBetween: 30,
@@ -7,7 +8,7 @@ $( document ).ready(function() {
 		loop: true,
     });
 	var swiper2 = new Swiper('.swiper-container.carousel_gioithieu', {
-        autoplay:5000,
+        autoplay:3000,
         paginationClickable: true,
         nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev',

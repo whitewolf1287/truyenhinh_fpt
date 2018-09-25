@@ -1,5 +1,7 @@
 .chuong_trinh {
-  margin-top: 64px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  background-color: #f7f7f7;
 }
 .chuong_trinh .col-lg-3 {
   padding-left: 9px;
@@ -112,7 +114,7 @@
   margin-top: 60px;
 }
 .FPT_TH {
-  margin-top: 128px;
+  margin-top: 64px;
 }
 .FPT_TH .list_bg {
   margin-top: 60px;
