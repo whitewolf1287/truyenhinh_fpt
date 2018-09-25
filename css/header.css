@@ -159,7 +159,6 @@
 			}*/
 }
 .Header_navigation .bg_navigation_2 ul .txt {
-  color: 16px;
   color: #fff;
   padding: 8px 16px 8px 16px;
   position: relative;
@@ -175,7 +174,7 @@
 }
 .Header_navigation .bg_navigation_2 ul li a.txt {
   color: #fff;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
 }
 .Header_navigation .bg_navigation_2 ul li .txt:after {
