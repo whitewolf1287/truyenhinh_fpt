@@ -191,14 +191,14 @@
 .FPT_TH .list_bg .color_org {
   color: #ff8200;
   text-align: center;
-  font-weight: bold;
+  font-weight: 300;
   font-size: 26px;
   line-height: 26px;
 }
 .FPT_TH .list_bg .color_cyan {
   color: #0eb1aa;
   text-align: center;
-  font-weight: bold;
+  font-weight: 300;
   font-size: 26px;
   line-height: 26px;
 }
@@ -328,7 +328,7 @@
   text-align: center;
   color: #0eb1aa !important;
   font-size: 30px;
-  font-weight: 500;
+  font-weight: 300;
   display: block;
   text-decoration: underline !important;
 }
