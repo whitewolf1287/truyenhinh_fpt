@@ -1,3 +1,5 @@
+@import 'library'; 
+
 .chuong_trinh{padding-top: 64px;padding-bottom: 64px;    background-color: #f7f7f7;
 	.col-lg-3{padding-left: 9px;padding-right: 9px;}
 	.title{margin-bottom:48px; }
@@ -216,6 +218,27 @@
 		}
 	}
 }
+.Khampha_v1 {padding-bottom: 72px;
+	.line{border-top: @line-border;margin-bottom: 72px;}
+}
+.item_col{position: relative;padding-left: 16px;padding-right: 16px;
+	.icon_circle{width: 72px;height: 72px;display:block;margin: 0 auto;background-repeat: no-repeat;background-position: center center;margin-bottom: 20px;}
+	.title{font-size: 20px;font-weight: 500;color:@dark-text;text-align: center;.animation();}
+	.txt{font-size: 16px;color:@dark-text;text-align: center;height: 72px;display: block;overflow: hidden;}
+	
+	.icon_huongdan{.source-icon-huongdan();}
+	.icon_phonggd{.source-icon-phonggd();}
+	.icon_khuyenmai{.source-icon-khuyenmai();}
+	.bg_click{position: absolute;opacity: 0;height: 100%;width: 100%;display: block;}
+	&:hover{
+		.icon_huongdan{.source-icon-huongdan-ac();}
+		.icon_phonggd{.source-icon-phonggd-ac();}
+		.icon_khuyenmai{.source-icon-khuyenmai-ac();}
+		.title{color: @secondary-text;}
+	}
+	
+}
+
 .Tintuc{padding-top: 100px;padding-bottom: 100px;
 	.swiper-slide{
 		a{width: 100%;height: 100%;display: block;position: absolute;z-index: 2}

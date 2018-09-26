@@ -1,3 +1,64 @@
+.shadow-navigation {
+  -webkit-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+}
+.animation {
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+}
+.b-shadow-5 {
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+  -ms-box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+}
+.soure-icon-hotline {
+  background-image: url(../images/hotline.png);
+  background-image: -webkit-image-set(url(../images/hotline.png) 1x, url(../images/hotline@2x.png) 2x, url(../images/hotline@3x.png) 3x);
+}
+.soure-icon-email {
+  background-image: url(../images/email.png);
+  background-image: -webkit-image-set(url(../images/email.png) 1x, url(../images/email@2x.png) 2x, url(../images/email@3x.png) 3x);
+}
+.soure-icon-dropdown {
+  background-image: url(../images/icon_dropdown.png);
+  background-image: -webkit-image-set(url(../images/icon_dropdown.png) 1x, url(../images/icon_dropdown@2x.png) 2x, url(../images/icon_dropdown@3x.png) 3x);
+}
+.soure-icon-ngonngu {
+  background-image: url(../images/lang.png);
+  background-image: -webkit-image-set(url(../images/lang.png) 1x, url(../images/lang@2x.png) 2x, url(../images/lang@3x.png) 3x);
+}
+.soure-bg-khampha {
+  background-image: url(../images/demo/khampha_bg.png);
+}
+.source-icon-huongdan {
+  background-image: url(../images/icon_hd.png);
+  background-image: -webkit-image-set(url(../images/icon_hd.png) 1x, url(../images/icon_hd@2x.png) 2x, url(../images/icon_hd@3x.png) 3x);
+}
+.source-icon-phonggd {
+  background-image: url(../images/icon_gd.png);
+  background-image: -webkit-image-set(url(../images/icon_gd.png) 1x, url(../images/icon_gd@2x.png) 2x, url(../images/icon_gd@3x.png) 3x);
+}
+.source-icon-khuyenmai {
+  background-image: url(../images/icon_gift.png);
+  background-image: -webkit-image-set(url(../images/icon_gift.png) 1x, url(../images/icon_gift@2x.png) 2x, url(../images/icon_gift@3x.png) 3x);
+}
+.source-icon-huongdan-ac {
+  background-image: url(../images/icon_hd_ac.png);
+  background-image: -webkit-image-set(url(../images/icon_hd_ac.png) 1x, url(../images/icon_hd_ac@2x.png) 2x, url(../images/icon_hd_ac@3x.png) 3x);
+}
+.source-icon-phonggd-ac {
+  background-image: url(../images/icon_gd_ac.png);
+  background-image: -webkit-image-set(url(../images/icon_gd_ac.png) 1x, url(../images/icon_gd_ac@2x.png) 2x, url(../images/icon_gd_ac@3x.png) 3x);
+}
+.source-icon-khuyenmai-ac {
+  background-image: url(../images/icon_gift_ac.png);
+  background-image: -webkit-image-set(url(../images/icon_gift_ac.png) 1x, url(../images/icon_gift_ac@2x.png) 2x, url(../images/icon_gift_ac@3x.png) 3x);
+}
 .chuong_trinh {
   padding-top: 64px;
   padding-bottom: 64px;
@@ -447,6 +508,80 @@
 }
 .Khampha .list_link li:hover a:after {
   opacity: 1;
+}
+.Khampha_v1 {
+  padding-bottom: 72px;
+}
+.Khampha_v1 .line {
+  border-top: 1px solid rgba(41, 41, 43, 0.1);
+  margin-bottom: 72px;
+}
+.item_col {
+  position: relative;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.item_col .icon_circle {
+  width: 72px;
+  height: 72px;
+  display: block;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-bottom: 20px;
+}
+.item_col .title {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+}
+.item_col .txt {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  height: 72px;
+  display: block;
+  overflow: hidden;
+}
+.item_col .icon_huongdan {
+  background-image: url(../images/icon_hd.png);
+  background-image: -webkit-image-set(url(../images/icon_hd.png) 1x, url(../images/icon_hd@2x.png) 2x, url(../images/icon_hd@3x.png) 3x);
+}
+.item_col .icon_phonggd {
+  background-image: url(../images/icon_gd.png);
+  background-image: -webkit-image-set(url(../images/icon_gd.png) 1x, url(../images/icon_gd@2x.png) 2x, url(../images/icon_gd@3x.png) 3x);
+}
+.item_col .icon_khuyenmai {
+  background-image: url(../images/icon_gift.png);
+  background-image: -webkit-image-set(url(../images/icon_gift.png) 1x, url(../images/icon_gift@2x.png) 2x, url(../images/icon_gift@3x.png) 3x);
+}
+.item_col .bg_click {
+  position: absolute;
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+.item_col:hover .icon_huongdan {
+  background-image: url(../images/icon_hd_ac.png);
+  background-image: -webkit-image-set(url(../images/icon_hd_ac.png) 1x, url(../images/icon_hd_ac@2x.png) 2x, url(../images/icon_hd_ac@3x.png) 3x);
+}
+.item_col:hover .icon_phonggd {
+  background-image: url(../images/icon_gd_ac.png);
+  background-image: -webkit-image-set(url(../images/icon_gd_ac.png) 1x, url(../images/icon_gd_ac@2x.png) 2x, url(../images/icon_gd_ac@3x.png) 3x);
+}
+.item_col:hover .icon_khuyenmai {
+  background-image: url(../images/icon_gift_ac.png);
+  background-image: -webkit-image-set(url(../images/icon_gift_ac.png) 1x, url(../images/icon_gift_ac@2x.png) 2x, url(../images/icon_gift_ac@3x.png) 3x);
+}
+.item_col:hover .title {
+  color: #ff8201;
 }
 .Tintuc {
   padding-top: 100px;
