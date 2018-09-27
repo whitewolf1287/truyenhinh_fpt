@@ -99,10 +99,15 @@ $( document ).ready(function() {
 	  }
 	);
 	
-	var the_obj = $('.3line').ThreeDots({
-				max_rows: 3
-			});
-
-	
+	if($(window).width() <= 1199){
+		var w_sli = $(window).width() / 1.618 / 1.618;
+		$('.carousel').css({'height':w_sli});
+	}
+	$( window ).resize(function() {
+		if($(window).width() <= 1199){
+			w_sli = $(window).width() / 1.618 / 1.618;
+			$('.carousel').css({'height':w_sli});
+		}
+    });
 	
 });

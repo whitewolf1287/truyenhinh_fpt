@@ -200,3 +200,61 @@
 .slider_small .content .title a {
   color: #fff !important;
 }
+@media (max-width: 1400px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    width: 40px;
+  }
+  .swiper-button-next.swiper-button-white,
+  .swiper-container-rtl .swiper-button-prev.swiper-button-white {
+    right: 42px;
+  }
+  .swiper-button-prev.swiper-button-white,
+  .swiper-container-rtl .swiper-button-next.swiper-button-white {
+    left: 42px;
+  }
+}
+@media (max-width: 1280px) {
+  .carousel {
+    height: 420px;
+  }
+  .swiper-button-next.swiper-button-white,
+  .swiper-container-rtl .swiper-button-prev.swiper-button-white {
+    right: 16px;
+  }
+  .swiper-button-prev.swiper-button-white,
+  .swiper-container-rtl .swiper-button-next.swiper-button-white {
+    left: 16px;
+  }
+}
+@media (max-width: 991px) {
+  .carousel_gioithieu .swiper-slide {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+  .carousel_gioithieu .title {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  .carousel_gioithieu .d-table {
+    height: inherit;
+    text-align: center;
+  }
+  .carousel_gioithieu .line_btn {
+    margin-bottom: 28px;
+  }
+  .carousel_gioithieu img {
+    display: block;
+    margin: 0 auto;
+  }
+  .carousel_gioithieu .txt {
+    height: 67px;
+    display: block;
+    overflow: hidden;
+  }
+}
+@media (max-width: 767px) {
+  .slider_banner {
+    padding-top: 0;
+  }
+}

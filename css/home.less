@@ -4,38 +4,11 @@
 	.col-lg-3{padding-left: 9px;padding-right: 9px;}
 	.title{margin-bottom:48px; }
 	.title{text-align: center;color: rgba(0,0,0,0.8);font-size: 34px;font-weight: bold; }
-	.icon_1{width: 80px;height: 80px;display:block;margin: 32px auto 16px auto;
-			background-image: url(../images/truyenhinh.png);
-			background-image: -webkit-image-set(url(../images/truyenhinh.png) 1x,
-				url(../images/truyenhinh@2x.png) 2x,
-				url(../images/truyenhinh@3x.png) 3x);
-			background-repeat: no-repeat;
-			background-position: center center;
-	}
-	.icon_2{width: 80px;height: 80px;display:block;margin: 32px auto 16px auto;
-			background-image: url(../images/vod.png);
-					background-image: -webkit-image-set(url(../images/vod.png) 1x,
-						url(../images/vod@2x.png) 2x,
-						url(../images/vod@3x.png) 3x);
-					background-repeat: no-repeat;
-					background-position: center center;
-	}
-	.icon_3{width: 80px;height: 80px;display:block;margin: 32px auto 16px auto;
-			background-image: url(../images/sukien.png);
-			background-image: -webkit-image-set(url(../images/sukien.png) 1x,
-				url(../images/sukien@2x.png) 2x,
-				url(../images/sukien@3x.png) 3x);
-			background-repeat: no-repeat;
-			background-position: center center;
-	}
-	.icon_4{width: 80px;height: 80px;display:block;margin: 32px auto 16px auto;
-			background-image: url(../images/thethao.png);
-			background-image: -webkit-image-set(url(../images/thethao.png) 1x,
-				url(../images/thethao@2x.png) 2x,
-				url(../images/thethao@3x.png) 3x);
-			background-repeat: no-repeat;
-			background-position: center center;
-	}
+	.icon_1,.icon_2,.icon_3,.icon_4{width: 80px;height: 80px;display:block;margin: 32px auto 16px auto;background-repeat: no-repeat;background-position: center center;}
+	.icon_1{.source-icon-truyenhinh();}
+	.icon_2{.source-icon-vod();}
+	.icon_3{.source-icon-sukien();}
+	.icon_4{.source-icon-thethao();}
 	.item{border: 1px solid #ebebeb;padding-left: 8px;padding-right: 8px;padding-bottom: 12px;transition: all 0.3s;box-shadow: 0 8px 16px rgba(255,255,255,.18);
     background-color: #fff;color: rgba(0, 0, 0, 0.6);
 		.tit{font-weight: bold;color: #0eb1aa;font-size: 20px;text-align: center;margin-bottom: 16px;text-transform: uppercase;}
@@ -43,30 +16,10 @@
 		&:hover{background-color: #0eb1aa;box-shadow: 0 8px 16px rgba(0,0,0,.18);border: 1px solid #0eb1aa;
 			.tit{color: #fff;}
 			.text{color: #fff;}
-			.icon_1{
-					background-image: url(../images/truyenhinh_w.png);
-					background-image: -webkit-image-set(url(../images/truyenhinh_w.png) 1x,
-						url(../images/truyenhinh_w@2x.png) 2x,
-						url(../images/truyenhinh_w@3x.png) 3x);
-			}
-			.icon_2{
-					background-image: url(../images/vod_w.png);
-					background-image: -webkit-image-set(url(../images/vod_w.png) 1x,
-						url(../images/vod_w@2x.png) 2x,
-						url(../images/vod_w@3x.png) 3x);
-			}
-			.icon_3{
-					background-image: url(../images/sukien_w.png);
-					background-image: -webkit-image-set(url(../images/sukien_w.png) 1x,
-						url(../images/sukien_w@2x.png) 2x,
-						url(../images/sukien_w@3x.png) 3x);
-			}
-			.icon_4{
-					background-image: url(../images/thethao_w.png);
-					background-image: -webkit-image-set(url(../images/thethao_w.png) 1x,
-						url(../images/thethao_w@2x.png) 2x,
-						url(../images/thethao_w@3x.png) 3x);
-			}
+			.icon_1{.source-icon-truyenhinh-ac();}
+			.icon_2{.source-icon-vod-ac();}
+			.icon_3{.source-icon-sukien-ac();}
+			.icon_4{.source-icon-thethao-ac();}
 		}
 	}
 	.line_btn{margin-top: 60px;}
@@ -175,7 +128,7 @@
 		margin-top: 24px;}
 	.line_btn {margin-top: 28px;}
 }
-.Khampha{
+/*.Khampha{
 	.icon_HDSD{		background-repeat: no-repeat;
 					background-image: url(../images/hdsd.png);
 					background-image: -webkit-image-set(url(../images/hdsd.png) 1x,
@@ -217,9 +170,9 @@
 			}
 		}
 	}
-}
+}*/
 .Khampha_v1 {padding-bottom: 72px;
-	.line{border-top: @line-border;margin-bottom: 72px;}
+	.line{border-top: @line-border;margin-bottom: 72px;margin-top: 0;}
 }
 .item_col{position: relative;padding-left: 16px;padding-right: 16px;
 	.icon_circle{width: 72px;height: 72px;display:block;margin: 0 auto;background-repeat: no-repeat;background-position: center center;margin-bottom: 20px;}
@@ -254,4 +207,59 @@
 			&:last-child{padding-left: 10px;padding-right: 10px;}
 		}
 	}
+}
+@media (max-width: 1440px){
+	.FPT_TH .list_bg {
+		.color_cyan,.color_org{font-size: 24px;}
+	}
+	.Goi_dv .title_view{font-size: 28px;}
+	
+}
+@media (max-width: 1200px){
+	.FPT_TH .list_bg {
+		.color_cyan,.color_org{font-size: 20px;}
+	}
+	.Goi_dv .title_view{font-size: 24px;}
+	.item_col .txt{font-size: 14px;height: 64px;}
+	.chuong_trinh {
+		.title{font-size: 28px;}
+		.item .text{font-size: 14px;}
+	}
+}
+@media (max-width:991px){
+	.FPT_TH {
+		.list_bg{margin-top: 36px;
+			.item{
+				-ms-flex: 0 0 33.33%;
+				flex: 0 0 33.33%;
+				max-width: 33.33%;
+			}
+		}
+		.why_FPT {
+			.title{text-align: center;}
+			p{text-align: center;width: 80%;display: block;margin: 0 auto;margin-bottom: 8px;}
+			.icon_time,.icon_play{margin: auto;}
+			.line_btn{margin-top: 30px;margin-bottom: 0;}
+		}
+	}
+	.chuong_trinh {
+		.item{margin-bottom: 18px;}
+		.line_btn{margin-top: 30px;margin-bottom: 0;}
+	}
+	.Goi_dv {
+		.item{padding-left: 20px;padding-right: 20px;}
+		li{font-size: 15px;}
+	}
+	.congnghe {
+		.d-table{height: inherit;text-align: center;}
+		.title{margin-top: 0;}
+	}
+	.Khampha_v1 {
+		.item_col{padding: 0;
+			.title{font-size: 16px;}
+		}
+		.col-md-4{padding-left:8px;padding-right: 8px; }
+		
+	}
+	
 }

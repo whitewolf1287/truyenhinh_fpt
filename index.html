@@ -27,7 +27,7 @@
 <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
 <script type="text/javascript" src="js/Popper.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script> 
-<script type="text/javascript" src="js/jquery.ThreeDots.js"></script> 
+<script type="text/javascript" src="js/offcanvas.js"></script> 
 <script type="text/javascript" src="js/swiper.min.js"></script>
 <script type="text/javascript" src="js/aos.js"></script>
 <script type="text/javascript" src="js/slider.js"></script> 
@@ -39,7 +39,7 @@
 	<div class="HeaderPage">
 
        
-        <div class="Headertop">
+        <div class="Headertop hidden-xs-down">
         	<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
@@ -51,7 +51,7 @@
 							<a class="dropdown-item" href="#">English</a>
 						</div>
 						<a class="email_fptTH" href="mailto:fpttruyenhinh@gmail.com">Email: fpttruyenhinh@gmail.com</a>
-						<a class="phone_fptTH" href="tel:19001566">Hotline: 19001566</a>
+						<a class="phone_fptTH" href="tel:19001566"><span class="hidden-md-down">Hotline:</span> 19001566</a>
 						<div class="group_login">
 							<a class="txt">ĐĂNG NHẬP</a>
 							<div class="txt space">|</div>
@@ -61,12 +61,12 @@
 				</div>
             </div>
         </div>
-        <div class="Header_navigation">
+        <div class="Header_navigation ">
         	<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
-						<img class="logo" src="images/logo.png" />
-						<div class="navigation">
+						<img class="logo hidden-xs-down" src="images/logo.png" />
+						<div class="navigation hidden-xs-down">
 							<ul>
 								<li class="par">
 									<a class="txt ">SẢN PHẨM DỊCH VỤ</a>
@@ -74,19 +74,19 @@
 										<div class="container">
 										<ul>
 											<li class="item">
-												<a class="txt FPTTH active_1">Dịch vụ truyền hình</a>
+												<a class="txt ">Dịch vụ truyền hình</a>
 											</li>
 											<li class="item">
-												<a class="txt csbm">Thiết bị FPT TV</a>
+												<a class="txt ">Thiết bị FPT TV</a>
 											</li><!---->
 											<li class="item">
-												<a class="txt ttdv">Danh sách kênh</a>
+												<a class="txt ">Danh sách kênh</a>
 											</li>
 											<li class="item">
-												<a class="txt ttdv">Gói dịch vụ</a>
+												<a class="txt ">Gói dịch vụ</a>
 											</li>
 											<li class="item">
-												<a class="txt ttdv">Ứng dụng</a>
+												<a class="txt ">Ứng dụng</a>
 											</li>
 										</ul>
 										</div>
@@ -98,16 +98,16 @@
 										<div class="container">
 										<ul>
 											<li class="item">
-												<a class="txt ttdv">Sự kiện</a>
+												<a class="txt ">Sự kiện</a>
 											</li>
 											<li class="item">
-												<a class="txt FPTTH active_1">Truyền hình</a>
+												<a class="txt ">Truyền hình</a>
 											</li>
 											<li class="item">
-												<a class="txt csbm">Điện ảnh</a>
+												<a class="txt ">Điện ảnh</a>
 											</li>
 											<li class="item">
-												<a class="txt ttdv">Thể thao</a>
+												<a class="txt ">Thể thao</a>
 											</li>
 										</ul>
 										</div>
@@ -119,14 +119,14 @@
 										<div class="container">
 										<ul>
 											<li class="item">
-												<a class="txt ttdv">Liên hệ</a>
+												<a class="txt ">Liên hệ</a>
 											</li>
 											
 											<li class="item">
-												<a class="txt csbm">Phòng giao dịch</a>
+												<a class="txt ">Phòng giao dịch</a>
 											</li>
 											<li class="item">
-												<a class="txt FPTTH active_1">Hướng dẫn</a>
+												<a class="txt  ">Hướng dẫn</a>
 											</li>
 										</ul>
 										</div>
@@ -138,24 +138,56 @@
 										<div class="container">
 										<ul>
 											<li class="item">
-												<a class="txt ttdv">Thoả thuận dịch vụ</a>
+												<a class="txt ">Thoả thuận dịch vụ</a>
 											</li>
 											<li class="item">
-												<a class="txt csbm">Chính sách bảo mật</a>
+												<a class="txt ">Chính sách bảo mật</a>
 											</li>
 											
 											<li class="item">
-												<a class="txt FPTTH active_1">Giới Thiệu FPT TH</a>
+												<a class="txt ">Giới Thiệu FPT TH</a>
 											</li>
 										</ul>
 										</div>
 									</div>
 								</li>
-								
-								
-								
 							</ul>
 						</div>
+						<nav id="header_link" class="navbar navbar-expand-lg fixed-top Shows-xs menu_collapse">
+							<img class="logo" src="images/logo.png" />
+							<button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+								<span class="navbar-toggler-icon"></span>
+							</button>
+
+							<div class="navbar-collapse offcanvas-collapse" id="">
+								<div class="">
+									<div class="" id="link_thfpt">
+									  <h5 class="mb-0">
+										<span class="btn btn-link btn-danhmuc" data-toggle="collapse" data-target="#danhmuc_thfpt" aria-expanded="false" aria-controls="danhmuc_a">
+										  <a href="">TRUYỀN HÌNH FPT</a>
+										</span>
+									  </h5>
+									</div>
+
+									<div id="danhmuc_thfpt" class="collapse " aria-labelledby="link_thfpt" data-parent="#header_link">
+									  <div class="card-body">
+										<ul class="">
+											<li class="">
+												<a class="link" href="">Giới Thiệu FPT TH</a>
+											</li>
+											
+											<li class="">
+												<a class="link" href="">Chính sách bảo mật</a>
+											</li>
+											<li class="">
+												<a class="link" href="">Thoả thuận dịch vụ</a>
+											</li>
+										</ul>
+									  </div>
+									</div>
+								</div>
+							</div>
+						</nav>
 					</div>
 				</div>
             </div>
@@ -181,34 +213,34 @@
 	<div class=" chuong_trinh">
 		<div class="container">
 			<div class="row justify-content-md-center">
-				<div class="col-lg-8">
+				<div class="col-lg-8 col-md-12">
 					<h3 class="title">Ứng dụng giải trí đặc sắc</h3>
 					
 				</div>
 			</div>
 			<div class="row">
-				<div data-aos="zoom-in-up" data-aos-duration="1500" data-aos-offset="16" class="col-lg-3">
+				<div data-aos="zoom-in-up" data-aos-duration="1500" data-aos-offset="16" class="col-lg-3 col-md-6 col-sm-6">
 					<div  class="item">
 						<span class="icon_1"></span>
 						<h3 class="tit">Truyền hình (TV)</h3>
 						<p class="text "><span class="">Với hơn 150 kênh truyền hình trong và ngoài nước (trong đó có hơn 30 kênh chuẩn HD)</span></p>
 					</div>
 				</div>
-				<div data-aos="zoom-in-up" data-aos-duration="1500" data-aos-offset="16" class="col-lg-3 ">
+				<div data-aos="zoom-in-up" data-aos-duration="1500" data-aos-offset="16" class="col-lg-3 col-md-6 col-sm-6">
 					<div  class="item">
 						<span class="icon_2"></span>
 						<h3 class="tit">VOD</h3>
 						<p class="text "><span class="">Kho nội dung theo yêu cầu phong phú nhiều thể loại, đa dạng phù hợp thị hiếu</span></p>
 					</div>
 				</div>
-				<div data-aos="zoom-in-up" data-aos-duration="1500" data-aos-offset="16" class="col-lg-3 ">
+				<div data-aos="zoom-in-up" data-aos-duration="1500" data-aos-offset="16" class="col-lg-3 col-md-6 col-sm-6">
 					<div class="item">
 						<span class="icon_3"></span>
 						<h3 class="tit">Sự Kiện</h3>
 						<p class="text "><span class="">Phát trực tiếp những sự kiện nổi bật trên nhiều lĩnh vực </span></p>
 					</div>
 				</div>
-				<div data-aos="zoom-in-up" data-aos-duration="1500" data-aos-offset="16" class="col-lg-3 ">
+				<div data-aos="zoom-in-up" data-aos-duration="1500" data-aos-offset="16" class="col-lg-3 col-md-6 col-sm-6">
 					<div class="item">
 						<span class="icon_4"></span>
 						<h3 class="tit">Thể thao</h3>
@@ -289,7 +321,7 @@
 				</div>
 			</div>
 			<div class="col_5col item item_hidden" data-aos="fade-up"
-     data-aos-duration="1500" data-aos-delay="1800">
+     data-aos-duration="1500" data-aos-delay="1000">
 				<img src="images/demo/bg6.png" alt="" />
 				<div class="bg_w">
 					<div class="bg d-table">
@@ -300,7 +332,7 @@
 				</div>
 			</div>
 			<div class="col_5col item item_hidden" data-aos="fade-up"
-     data-aos-duration="1500" data-aos-delay="1600">
+     data-aos-duration="1500" data-aos-delay="1200">
 				<img src="images/demo/bg7.png" alt="" />
 				<div class="bg_w">
 					<div class="bg d-table">
@@ -322,7 +354,7 @@
 				</div>
 			</div>
 			<div class="col_5col item item_hidden" data-aos="fade-up"
-     data-aos-duration="1500" data-aos-delay="1200">
+     data-aos-duration="1500" data-aos-delay="1600">
 				<img src="images/demo/bg9.png" alt="" />
 				<div class="bg_w">
 					<div class="bg d-table">
@@ -332,8 +364,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="col_5col item item_hidden" data-aos="fade-up"
-     data-aos-duration="1500" data-aos-delay="1000">
+			<div class="col_5col item item_hidden hidden-md-down" data-aos="fade-up"
+     data-aos-duration="1500" data-aos-delay="1800">
 				<img src="images/demo/bg10.png" alt="" />
 				<div class="bg_w">
 					<div class="bg d-table">
@@ -346,7 +378,7 @@
 		</div>
 		<div class="container why_FPT">
 			<div class="row">
-				<div class="col-lg-6" data-aos="fade-right" data-aos-duration="1500">
+				<div class="col-lg-6 col-md-12" data-aos="fade-right" data-aos-duration="1500">
 					<h3 class="title">
 					Tại sao bạn nên chọn truyền hình FPT?
 					</h3>
@@ -361,7 +393,7 @@
 						<a class="btn btn-primary">Tìm hiểu thêm</a>
 					</p>
 				</div>
-				<div class="col-lg-6" data-aos="fade-left" data-aos-duration="1500">
+				<div class="col-lg-6 col-md-6 hidden-md-down" data-aos="fade-left" data-aos-duration="1500">
 					<img src="images/demo/bg_TH.png" alt="" >
 				</div>
 			</div>
@@ -475,7 +507,7 @@
 				</div>
 			</div>
 			<div class="row list_pack">
-				<div class="col-lg-6" data-aos="fade-down-right" data-aos-duration="1500" data-aos-delay="200">
+				<div class="col-lg-6 col-md-6" data-aos="fade-down-right" data-aos-duration="1500" data-aos-delay="200">
 					<div class="item">
 						<div class="d-table">
 							<div class="d-table-cell">
@@ -492,12 +524,12 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-6" data-aos="fade-down-left" data-aos-duration="1500" data-aos-delay="400">
+				<div class="col-lg-6 col-md-6" data-aos="fade-down-left" data-aos-duration="1500" data-aos-delay="400">
 					<div class="pack pack1">
 						<div class="bg_w">
 							<div class="d-table">
 								<div class="d-table-cell">
-									<a class="title_view">Xem tất cả các gói</a>
+									<a class="title_view" href="#">Xem tất cả các gói</a>
 								</div>
 							</div>
 						</div>
@@ -505,18 +537,18 @@
 				</div>
 			</div>
 			<div class="row list_pack_2">
-				<div class="col-lg-6" data-aos="fade-up-right" data-aos-duration="1500" data-aos-delay="800">
+				<div class="col-lg-6 col-md-6" data-aos="fade-up-right" data-aos-duration="1500" data-aos-delay="800">
 					<div class="pack pack2">
 						<div class="bg_w">
 							<div class="d-table">
 								<div class="d-table-cell">
-									<a class="title_view">Xem tất cả các gói</a>
+									<a class="title_view" href="#">Xem tất cả các gói</a>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-6" data-aos="fade-up-left" data-aos-duration="1500" data-aos-delay="600">
+				<div class="col-lg-6 col-md-6" data-aos="fade-up-left" data-aos-duration="1500" data-aos-delay="600">
 					<div class="item">
 						<div class="d-table">
 							<div class="d-table-cell">
@@ -587,7 +619,7 @@
 		<div class="container">
 			<hr class="line">
 			<div class="row">
-				<div class="col-lg-4">
+				<div class="col-lg-4 col-md-4">
 					<div class="item_col" data-aos="zoom-in" data-aos-duration="1500">
 						<a class="bg_click"></a>
 						<span class="icon_circle icon_huongdan"></span>
@@ -595,7 +627,7 @@
 						<p class="txt">Cung cấp tất cả các hướng dẫn chi tiết về dịch vụ truyền hình mà bạn có thể quan tâm và cần tìm hiểu.</p>
 					</div>
 				</div>
-				<div class="col-lg-4">
+				<div class="col-lg-4 col-md-4">
 					<div class="item_col" data-aos="zoom-in" data-aos-duration="1500">
 						<a class="bg_click"></a>
 						<span class="icon_circle icon_phonggd"></span>
@@ -603,7 +635,7 @@
 						<p class="txt">Thông tin của tất cà các phòng giao dịch trên toàn quốc mà bạn có thể muốn tìm kiếm, chăm sóc khách hàng 24/7</p>
 					</div>
 				</div>
-				<div class="col-lg-4">
+				<div class="col-lg-4 col-md-4">
 					<div class="item_col" data-aos="zoom-in" data-aos-duration="1500">
 						<a class="bg_click"></a>
 						<span class="icon_circle icon_khuyenmai"></span>
@@ -783,7 +815,7 @@
 	<div class="Footer">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-2">
+				<div class="col-lg-2 col-md-4 item">
 					<h3 class="title">TRUYỀN HÌNH FPT</h3>
 					<ul class="ul_link">
 						<li><a>Giới Thiệu FPT TH</a></li>
@@ -791,7 +823,7 @@
 						<li><a>Thoả thuận dịch vụ</a></li>
 					</ul>
 				</div>
-				<div class="col-lg-3">
+				<div class="col-lg-3 col-md-5 item">
 					<h3 class="title">SẢN PHẨM DỊCH VỤ</h3>
 					<ul class="ul_link">
 						<li><a>Dịch vụ truyền hình</a></li>
@@ -801,7 +833,7 @@
 						<li><a>Ứng dụng</a></li>
 					</ul>
 				</div>
-				<div class="col-lg-2">
+				<div class="col-lg-2 col-md-3 item">
 					<h3 class="title">TIN TỨC</h3>
 					<ul class="ul_link">
 						<li><a>Truyền hình</a></li>
@@ -810,7 +842,7 @@
 						<li><a>Sự kiện</a></li>
 					</ul>
 				</div>
-				<div class="col-lg-2">
+				<div class="col-lg-2 col-md-4 item">
 					<h3 class="title">HỖ TRỢ</h3>
 					<ul class="ul_link">
 						<li><a>Hướng dẫn</a></li>
@@ -819,7 +851,7 @@
 					</ul>
 				</div>
 				
-				<div class="col-lg-3">
+				<div class="col-lg-3 col-md-8 item">
 					<h3 class="title">TRUYỀN HÌNH FPT</h3>
 					<div class="group_input_email">
 						<input class="input_email" type="input" placeholder="Nhập email"></input>
