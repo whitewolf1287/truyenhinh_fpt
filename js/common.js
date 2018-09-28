@@ -1,6 +1,6 @@
 $( document ).ready(function() {
 	AOS.init({
-		offset: 0, // offset (in px) from the original trigger point
+		offset: -24, // offset (in px) from the original trigger point
 	});
 	
 	if($(".btn-top").length){
