@@ -86,11 +86,13 @@ $( document ).ready(function() {
 			$(".HeaderPage").addClass("scaleheader");
 			$('.par').removeClass('disable');
 			$( '.par').removeClass( "hover" );
+			
 		}
 		else{
 			$(".HeaderPage").removeClass("scaleheader");
 			$('.par').removeClass('disable');
 			$( '.par').removeClass( "hover" );
+			
 			$('.title').text($('.navigation').html());
 		}
 	});
