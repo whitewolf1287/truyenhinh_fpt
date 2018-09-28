@@ -1,8 +1,6 @@
 $( document ).ready(function() {
 	AOS.init({
-		offset: -24, // offset (in px) from the original trigger point
-		disable: 'mobile',// accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
-		startEvent: 'load',
+		disable: 'mobile'
 	});
 	
 	if($(".btn-top").length){
