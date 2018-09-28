@@ -95,7 +95,11 @@ $( document ).ready(function() {
 		}  
 	  }, function() {
 		$( ".par" ).removeClass( "hover" );
-		  $('.par').removeClass('disable');
+		if($( ".par" ).hasClass('active') == true){
+			$('.par').removeClass('disable');
+		}
+		
+		  
 	  }
 	);
 	
