@@ -242,7 +242,10 @@
   padding: 8px 16px 8px 16px;
   position: relative;
 }
-.Header_navigation .par .bg_navigation_2 ul .txt:focus {
+.Header_navigation .par .bg_navigation_2 ul li.par.hover {
+  opacity: 0.7;
+}
+.Header_navigation .par .bg_navigation_2 ul li.par.hover .txt {
   color: #ffffff !important;
 }
 .Header_navigation .par .bg_navigation_2 ul li {
@@ -263,22 +266,19 @@
 .Header_navigation .par .bg_navigation_2 ul li .txt:after {
   display: none;
 }
-.Header_navigation .par .bg_navigation_2 ul li:focus {
-  opacity: 0.7;
-}
 .Header_navigation .par .bg_navigation_2 ul li:first-child .txt {
   padding-right: 0;
 }
 .Header_navigation .par.active,
-.Header_navigation .navigation li.par:focus {
+.Header_navigation .navigation li.par.hover {
   position: relative;
 }
 .Header_navigation .par.active .bg_navigation_2,
-.Header_navigation .navigation li.par:focus .bg_navigation_2 {
+.Header_navigation .navigation li.par.hover .bg_navigation_2 {
   display: block;
 }
 .Header_navigation .par.active:after,
-.Header_navigation .navigation li.par:focus:after {
+.Header_navigation .navigation li.par.hover:after {
   content: "";
   width: 0;
   height: 0;
@@ -302,7 +302,7 @@
 .Header_navigation .active.disable.hover:after {
   display: block;
 }
-.Header_navigation .navigation li.par:focus > .txt {
+.Header_navigation .navigation li.par.hover > .txt {
   color: #0eb1aa !important;
 }
 .Header_navigation .active.disable .bg_navigation_2 {
@@ -321,11 +321,11 @@
   overflow: hidden;
   display: block;
 }
-.HeaderPage.scaleheader .Header_navigation li.active:focus .bg_navigation_2 {
+.HeaderPage.scaleheader .Header_navigation li.active.hover .bg_navigation_2 {
   display: none;
 }
-.HeaderPage.scaleheader .Header_navigation .navigation li.par:focus .bg_navigation_2,
-.HeaderPage.scaleheader .Header_navigation .navigation li.par.active:focus .bg_navigation_2 {
+.HeaderPage.scaleheader .Header_navigation .navigation li.par.hover .bg_navigation_2,
+.HeaderPage.scaleheader .Header_navigation .navigation li.par.active.hover .bg_navigation_2 {
   top: 70px;
   height: 48px;
   display: block;
@@ -344,7 +344,7 @@
 .HeaderPage.scaleheader .Header_navigation .navigation .active.disable.hover:after {
   display: block;
 }
-.HeaderPage.scaleheader .Header_navigation .navigation li.par:focus > .txt {
+.HeaderPage.scaleheader .Header_navigation .navigation li.par.hover > .txt {
   color: #0eb1aa !important;
 }
 @media (hover: hover) {
