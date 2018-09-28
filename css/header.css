@@ -232,7 +232,7 @@
 .Header_navigation .navigation li.par:first-child {
   padding-right: 0;
 }
-.Header_navigation .par.bg_navigation_2 {
+.Header_navigation .par .bg_navigation_2 {
   display: none;
   background-color: #00968f;
   position: fixed;
@@ -247,7 +247,7 @@
   -o-transition: all 0.3s;
   -ms-transition: all 0.3s;
 }
-.Header_navigation .par.bg_navigation_2 ul {
+.Header_navigation .par .bg_navigation_2 ul {
   float: right;
   /*.ttdv{  padding-left: 30px;
 					background-position: 0 4px;
@@ -274,15 +274,15 @@
 						url(../images/FPTTH@3x.png) 3x);
 			}*/
 }
-.Header_navigation .par.bg_navigation_2 ul .txt {
+.Header_navigation .par .bg_navigation_2 ul .txt {
   color: #ffffff;
   padding: 8px 16px 8px 16px;
   position: relative;
 }
-.Header_navigation .par.bg_navigation_2 ul .txt:hover {
+.Header_navigation .par .bg_navigation_2 ul .txt:hover {
   color: #ffffff !important;
 }
-.Header_navigation .par.bg_navigation_2 ul li {
+.Header_navigation .par .bg_navigation_2 ul li {
   display: inline-block;
   padding: 14px 0;
   opacity: 1;
@@ -292,18 +292,18 @@
   -o-transition: all 0.3s;
   -ms-transition: all 0.3s;
 }
-.Header_navigation .par.bg_navigation_2 ul li a.txt {
+.Header_navigation .par .bg_navigation_2 ul li a.txt {
   color: #ffffff;
   font-size: 16px;
   font-weight: 400;
 }
-.Header_navigation .par.bg_navigation_2 ul li .txt:after {
+.Header_navigation .par .bg_navigation_2 ul li .txt:after {
   display: none;
 }
-.Header_navigation .par.bg_navigation_2 ul li:hover {
+.Header_navigation .par .bg_navigation_2 ul li:hover {
   opacity: 0.7;
 }
-.Header_navigation .par.bg_navigation_2 ul li:first-child .txt {
+.Header_navigation .par .bg_navigation_2 ul li:first-child .txt {
   padding-right: 0;
 }
 .Header_navigation .par.active,
