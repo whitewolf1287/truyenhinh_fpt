@@ -91,8 +91,6 @@ $( document ).ready(function() {
 			$(".HeaderPage").removeClass("scaleheader");
 			$('.par').removeClass('disable');
 			$( '.par').removeClass( "hover" );
-			
-			$('.title').text($('.navigation').html());
 		}
 	});
 	

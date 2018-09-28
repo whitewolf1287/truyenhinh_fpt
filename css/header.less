@@ -1,10 +1,6 @@
 @import 'library'; 
 
-.HeaderPage{position: fixed;z-index: 99;width: 100%;height: 157px;background-color: @whitebg;top:0;    transition: top 0.3s;
-    -webkit-transition: top 0.3s;
-    -moz-transition: top 0.3s;
-    -o-transition: top 0.3s;
-    -ms-transition: top 0.3s;}
+.HeaderPage{position: fixed;z-index: 99;width: 100%;height: 109px;background-color: @whitebg;top:0;.animation(all)}
 
 /*Header top*/
 .Headertop{height: 40px;border-bottom: @line-border;
@@ -32,7 +28,7 @@
 		}
 		li.par:first-child{padding-right: 0;}
 	}
-	.par .bg_navigation_2{display: none;background-color: @primary-color;position: fixed;top:109px;height: 48px;width: 100%;left: 0;opacity: 1;.animation();
+	.par .bg_navigation_2{display: none;background-color: @primary-color;position: fixed;top:109px;height: 48px;width: 100%;left: 0;opacity: 1;.animation(all);
 		ul{float: right;
 			.txt{color: @light-text;padding: 8px 16px 8px 16px;position: relative;
 
@@ -40,9 +36,9 @@
 			li.par.hover{opacity: 0.7;
 				.txt{color: @light-text !important;}
 			}
-			li{display: inline-block;padding: 14px 0;opacity: 1;.animation();
+			li{display: inline-block;padding: 14px 0;opacity: 1;.animation(all);
 				a.txt{color: @light-text;font-size: 16px;font-weight: 400; }
-				.txt:after{display: none;}
+				.txt:after{opacity: 0;}
 
 			}
 			li:first-child{
@@ -53,12 +49,12 @@
 	.par.active,.navigation li.par.hover{position:relative;
 
 		.bg_navigation_2{display: block;}
-		&:after{content: "";width: 0;height: 0;border-style: solid;border-width: 0 7px 8px 7px;border-color: transparent transparent @primary-color transparent;left: 50%;bottom: 0;position: absolute;margin-left: -10px;}
+		&:after{content: "";width: 0;height: 0;border-style: solid;border-width: 0 7px 8px 7px;border-color: transparent transparent @primary-color transparent;left: 50%;bottom: 0;position: absolute;margin-left: -10px;opacity: 1;}
 	}
 	.active > .txt{color:@primary-text!important; }
 	.navigation li.active.disable > .txt{color:inherit !important; }
-	.active.disable:after{display: none;}
-	.active.disable.hover:after{display: block;}
+	.active.disable:after{opacity: 0;}
+	.active.disable.hover:after{opacity: 1;}
 	.navigation li.par.hover > .txt{color:@primary-text !important; }
 	.active.disable .bg_navigation_2{display: none;}
 
@@ -68,11 +64,11 @@
 	.Header_navigation li.active.hover .bg_navigation_2{display: none}
 	.Header_navigation .navigation li.par.hover .bg_navigation_2,
 	.Header_navigation .navigation li.par.active.hover .bg_navigation_2{top:70px;height: 48px;display: block;.shadow-navigation();}
-	.Header_navigation .active:after{display: none;}
+	.Header_navigation .active:after{opacity: 0;}
 	.Header_navigation .navigation {
 		li.par > a.txt{color: inherit !important;}
-		.active.disable:after{display: none;}
-		.active.disable.hover:after{display: block;}
+		.active.disable:after{opacity: 0;}
+		.active.disable.hover:after{opacity: 1;}
 		li.par.hover > .txt{color:@primary-text !important;}
 
 	}
@@ -89,12 +85,12 @@
 			}
 			li.par:first-child{padding-right: 0;}
 		}
-		.par .bg_navigation_2{display: none;background-color: @primary-color;position: fixed;top:109px;height: 48px;width: 100%;left: 0;opacity: 1;.animation();
+		.par .bg_navigation_2{display: none;background-color: @primary-color;position: fixed;top:109px;height: 48px;width: 100%;left: 0;opacity: 1;.animation(all);
 			ul{float: right;
 				.txt{color: @light-text;padding: 8px 16px 8px 16px;position: relative;
 					&:hover{color: @light-text !important;}
 				}
-				li{display: inline-block;padding: 14px 0;opacity: 1;.animation();
+				li{display: inline-block;padding: 14px 0;opacity: 1;.animation(all);
 					a.txt{color: @light-text;font-size: 16px;font-weight: 400; }
 					.txt:after{display: none;}
 					&:hover{opacity: 0.7;}
