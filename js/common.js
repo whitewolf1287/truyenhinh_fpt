@@ -86,6 +86,7 @@ $( document ).ready(function() {
 		}
 		else{
 			$(".HeaderPage").removeClass("scaleheader");
+			$('.par').removeClass('disable');
 			$('.title').text($('.navigation').html());
 		}
 	});
