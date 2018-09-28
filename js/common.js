@@ -1,10 +1,8 @@
 $( document ).ready(function() {
 	AOS.init({
 		offset: -24, // offset (in px) from the original trigger point
-		disable: function () {
-			var maxWidth = 1024;
-			return window.innerWidth < maxWidth;
-			},
+		disable: 'mobile',// accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+		startEvent: 'load',
 	});
 	
 	if($(".btn-top").length){
