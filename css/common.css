@@ -227,9 +227,11 @@ a {
   -o-transition: all 0.3s;
   -ms-transition: all 0.3s;
 }
-a:hover {
-  color: #00968f !important;
-  text-decoration: none;
+@media (hover: hover) {
+  a:hover {
+    color: #00968f !important;
+    text-decoration: none;
+  }
 }
 a[x-apple-data-detectors] {
   color: inherit !important;
