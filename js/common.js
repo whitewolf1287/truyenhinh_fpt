@@ -84,7 +84,10 @@ $( document ).ready(function() {
 		if (scroll >= 157) {
 			$(".HeaderPage").addClass("scaleheader");
 		}
-		else{$(".HeaderPage").removeClass("scaleheader");}
+		else{
+			$(".HeaderPage").removeClass("scaleheader");
+			$('.title').text($('.navigation').html());
+		}
 	});
 	
 	$( ".par" ).hover(
