@@ -111,6 +111,10 @@ $( document ).ready(function() {
 		  
 	  }
 	);
+	$('.par.hover').click(function() {
+		$(this).removeClass("hover");
+	});
+	
 	
 	if($(window).width() <= 1199){
 		var w_sli = $(window).width() / 1.618 / 1.618;
