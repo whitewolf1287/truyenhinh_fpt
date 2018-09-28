@@ -79,7 +79,8 @@ $( document ).ready(function() {
 	if (scroll >= 157) {
 		$(".HeaderPage").addClass("scaleheader");
 	}
-	$(window).scroll(function() {    
+	$(window).scroll(function() {  
+		$('.par').removeClass('disable');
 		var scroll = $(window).scrollTop();
 		if (scroll >= 157) {
 			$(".HeaderPage").addClass("scaleheader");
@@ -98,10 +99,9 @@ $( document ).ready(function() {
 			$('.par.active').addClass('disable');
 		}  
 	  }, function() {
+		$('.par').removeClass('disable');
 		$( ".par" ).removeClass( "hover" );
-		if($( ".par" ).hasClass('active') == true){
-			$('.par').removeClass('disable');
-		}
+		
 		
 		  
 	  }
