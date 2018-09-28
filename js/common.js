@@ -108,6 +108,9 @@ $( document ).ready(function() {
 	  }, function() {
 		$('.par').removeClass('disable');
 		$( ".par" ).removeClass( "hover" );
+		if($(this).hasClass('hover') === true){
+			$( this ).removeClass( "hover" );
+		}  
 	  }
 	);
 		
@@ -115,8 +118,10 @@ $( document ).ready(function() {
 		
 		if($(this).hasClass('hover') !== true){
 			$(this).addClass("hover");
+			$('.par.active').addClass('disable');
 		}
-		$('.par.active').addClass('disable');
+
+		
 	});
 	
 	
