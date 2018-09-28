@@ -1,6 +1,10 @@
 $( document ).ready(function() {
 	AOS.init({
-		disable: 'mobile'
+	  // Global settings
+	  disable: true, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+
+
+
 	});
 	
 	if($(".btn-top").length){
