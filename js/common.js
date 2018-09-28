@@ -81,6 +81,7 @@ $( document ).ready(function() {
 	}
 	$(window).scroll(function() {  
 		$('.par').removeClass('disable');
+		$( '.par' ).removeClass( "hover" );
 		var scroll = $(window).scrollTop();
 		if (scroll >= 157) {
 			$(".HeaderPage").addClass("scaleheader");
