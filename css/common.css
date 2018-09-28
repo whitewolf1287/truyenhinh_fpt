@@ -423,7 +423,7 @@ ul {
   border-radius: 36px;
   background-repeat: no-repeat;
   border: medium none;
-  bottom: 72px;
+  bottom: 32px;
   cursor: pointer;
   display: none;
   height: 36px;
@@ -463,5 +463,30 @@ ul {
   }
   .Footer .item {
     margin-bottom: 24px;
+  }
+}
+@media (max-width: 767px) {
+  .title_big {
+    font-size: 24px;
+  }
+  .btn-primary {
+    font-size: 14px;
+  }
+  .Footer {
+    padding-top: 32px;
+  }
+  .Footer .item {
+    margin-bottom: 0;
+  }
+  .Footer .group_input_email .btn {
+    padding-top: 9px;
+    padding-bottom: 8px;
+  }
+  .Footer hr {
+    margin-top: 1rem;
+    margin-bottom: 0.7rem;
+  }
+  .Footer .copyright {
+    font-size: 14px;
   }
 }

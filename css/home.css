@@ -715,3 +715,95 @@
     padding-right: 8px;
   }
 }
+@media (max-width: 767px) {
+  .chuong_trinh {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  .chuong_trinh .title {
+    font-size: 24px;
+    margin-bottom: 28px;
+  }
+  .chuong_trinh .item .tit {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+  .chuong_trinh .line_btn {
+    margin-top: 0;
+  }
+  .FPT_TH {
+    margin-top: 32px;
+  }
+  .FPT_TH .list_bg {
+    margin-top: 8px;
+  }
+  .FPT_TH .list_bg .item {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .FPT_TH .list_bg .color_cyan,
+  .FPT_TH .list_bg .color_org {
+    font-size: 24px;
+  }
+  .FPT_TH .why_FPT {
+    margin-top: 0;
+  }
+  .FPT_TH .why_FPT .title {
+    font-size: 24px;
+  }
+  .FPT_TH .why_FPT .line_btn {
+    margin-top: 24px;
+  }
+  .Slider_gioithieu {
+    margin-top: 48px;
+  }
+  .Goi_dv {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  .Goi_dv .subtext {
+    margin-bottom: 8px;
+  }
+  .Goi_dv .item {
+    padding-left: 12px;
+    padding-right: 12px;
+    height: 300px;
+  }
+  .Goi_dv li {
+    font-size: 14px;
+  }
+  .Goi_dv .title {
+    margin-bottom: 12px;
+    padding-top: 8px;
+    font-size: 22px;
+  }
+  .Goi_dv .line_btn {
+    margin-top: 16px;
+  }
+  .Goi_dv .pack1 {
+    height: 300px;
+  }
+  .Goi_dv .pack2 {
+    height: 300px;
+  }
+  .Goi_dv .list_pack .item:after {
+    border-width: 0 0 28px 28px;
+  }
+  .Goi_dv .list_pack_2 .item:after {
+    border-width: 28px 28px 0 0;
+  }
+  .congnghe {
+    padding: 32px 0;
+  }
+  .congnghe .title {
+    font-size: 24px;
+    margin-bottom: 32px;
+  }
+  .Khampha_v1 {
+    padding-bottom: 16px;
+  }
+  .Khampha_v1 .line {
+    margin-bottom: 42px;
+  }
+}

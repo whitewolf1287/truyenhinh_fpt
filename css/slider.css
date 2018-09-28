@@ -255,6 +255,26 @@
 }
 @media (max-width: 767px) {
   .slider_banner {
-    padding-top: 0;
+    padding-top: 48px;
+  }
+  .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    margin: 0 4px;
+  }
+  .swiper-container-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    bottom: -4px;
+  }
+  .carousel_gioithieu .swiper-slide {
+    padding-top: 42px;
+    padding-bottom: 42px;
+  }
+  .carousel_gioithieu .title {
+    font-size: 24px;
+  }
+  .carousel_gioithieu .line_btn {
+    margin-bottom: 24px;
   }
 }

@@ -538,7 +538,8 @@
     margin-top: 0;
     display: block;
     margin: 0 auto;
-    width: 120px;
+    width: 100px;
+    margin-top: 3px;
   }
   .navbar {
     padding-top: 5px;

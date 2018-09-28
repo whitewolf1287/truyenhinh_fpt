@@ -199,7 +199,7 @@
 	<div class="Footer">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-2 col-md-4 item">
+				<div class="col-lg-2 col-md-4 item hidden-xs-down">
 					<h3 class="title">TRUYỀN HÌNH FPT</h3>
 					<ul class="ul_link">
 						<li><a>Giới Thiệu FPT TH</a></li>
@@ -207,7 +207,7 @@
 						<li><a>Thoả thuận dịch vụ</a></li>
 					</ul>
 				</div>
-				<div class="col-lg-3 col-md-5 item">
+				<div class="col-lg-3 col-md-5 item hidden-xs-down">
 					<h3 class="title">SẢN PHẨM DỊCH VỤ</h3>
 					<ul class="ul_link">
 						<li><a>Dịch vụ truyền hình</a></li>
@@ -217,7 +217,7 @@
 						<li><a>Ứng dụng</a></li>
 					</ul>
 				</div>
-				<div class="col-lg-2 col-md-3 item">
+				<div class="col-lg-2 col-md-3 item hidden-xs-down">
 					<h3 class="title">TIN TỨC</h3>
 					<ul class="ul_link">
 						<li><a>Truyền hình</a></li>
@@ -226,7 +226,7 @@
 						<li><a>Sự kiện</a></li>
 					</ul>
 				</div>
-				<div class="col-lg-2 col-md-4 item">
+				<div class="col-lg-2 col-md-4 item hidden-xs-down">
 					<h3 class="title">HỖ TRỢ</h3>
 					<ul class="ul_link">
 						<li><a>Hướng dẫn</a></li>
