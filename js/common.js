@@ -85,7 +85,6 @@ $( document ).ready(function() {
 		if (scroll >= 157) {
 			$(".HeaderPage").addClass("scaleheader");
 			$('.par').removeClass('disable');
-			$( '.par').removeClass( "hover" );
 			
 		}
 		else{
@@ -99,20 +98,25 @@ $( document ).ready(function() {
 	
 	$( ".par" ).hover(
 	  function() {
-		$( this ).addClass( "hover" );
+		if($(this).hasClass('hover') !== true){
+			$( this ).addClass( "hover" );
+		}  
+		
 		if($( ".par" ).hasClass('active') === true){
 			$('.par.active').addClass('disable');
 		}  
 	  }, function() {
 		$('.par').removeClass('disable');
 		$( ".par" ).removeClass( "hover" );
-		
-		
-		  
 	  }
 	);
-	$('.par.hover').click(function() {
-		$(this).removeClass("hover");
+		
+	$('.par').click(function() {
+		
+		if($(this).hasClass('hover') !== true){
+			$(this).addClass("hover");
+		}
+		$('.par.active').addClass('disable');
 	});
 	
 	
