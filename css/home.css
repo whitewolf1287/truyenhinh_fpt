@@ -118,7 +118,7 @@
 .chuong_trinh .title {
   text-align: center;
   color: rgba(0, 0, 0, 0.8);
-  font-size: 14px;
+  font-size: 34px;
   font-weight: bold;
 }
 .chuong_trinh .icon_1,
@@ -657,7 +657,8 @@
     height: 64px;
   }
   .chuong_trinh .title {
-    font-size: 28px;
+    /*font-size: 28px;*/
+    font-size: 14px;
   }
   .chuong_trinh .item .text {
     font-size: 14px;
