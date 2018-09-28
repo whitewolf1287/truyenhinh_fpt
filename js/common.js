@@ -94,8 +94,8 @@ $( document ).ready(function() {
 			$('.par.active').addClass('disable');
 		}  
 	  }, function() {
-		$( this ).removeClass( "hover" );
-		  $('.par.active').removeClass('disable');
+		$( ".par" ).removeClass( "hover" );
+		  $('.par').removeClass('disable');
 	  }
 	);
 	
