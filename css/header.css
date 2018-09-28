@@ -349,7 +349,7 @@
     color: #0eb1aa !important;
   }
 }
-@media (hover: on-demand) {
+@media (hover: none) {
   .Header_navigation .logo {
     margin-top: 9px;
     margin-left: 0;
