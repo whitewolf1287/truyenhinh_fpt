@@ -1,5 +1,7 @@
 $( document ).ready(function() {
-	AOS.init();
+	AOS.init({
+		offset: 0, // offset (in px) from the original trigger point
+	});
 	
 	if($(".btn-top").length){
 		$(window).scroll(function () {
