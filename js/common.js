@@ -80,15 +80,17 @@ $( document ).ready(function() {
 		$(".HeaderPage").addClass("scaleheader");
 	}
 	$(window).scroll(function() {  
-		$('.par').removeClass('disable');
-		$( '.par' ).removeClass( "hover" );
+		
 		var scroll = $(window).scrollTop();
 		if (scroll >= 157) {
 			$(".HeaderPage").addClass("scaleheader");
+			$('.par').removeClass('disable');
+			$( '.par').removeClass( "hover" );
 		}
 		else{
 			$(".HeaderPage").removeClass("scaleheader");
 			$('.par').removeClass('disable');
+			$( '.par').removeClass( "hover" );
 			$('.title').text($('.navigation').html());
 		}
 	});
@@ -96,7 +98,7 @@ $( document ).ready(function() {
 	$( ".par" ).hover(
 	  function() {
 		$( this ).addClass( "hover" );
-		if($( ".par" ).hasClass('active') == true){
+		if($( ".par" ).hasClass('active') === true){
 			$('.par.active').addClass('disable');
 		}  
 	  }, function() {
