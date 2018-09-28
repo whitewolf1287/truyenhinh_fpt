@@ -76,18 +76,18 @@ $( document ).ready(function() {
 	
 	
 	var scroll = $(window).scrollTop();
-	if (scroll >= 157) {
+	if (scroll >= 10) {
 		$(".HeaderPage").addClass("scaleheader");
 	}
 	$(window).scroll(function() {  
 		
 		var scroll = $(window).scrollTop();
-		if (scroll >= 157) {
+		if (scroll >= 10) {
 			$(".HeaderPage").addClass("scaleheader");
 			$('.par').removeClass('disable');
 			
 		}
-		else{
+		else {
 			$(".HeaderPage").removeClass("scaleheader");
 			$('.par').removeClass('disable');
 			$( '.par').removeClass( "hover" );
