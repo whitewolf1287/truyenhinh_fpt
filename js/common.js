@@ -87,16 +87,6 @@ $( document ).ready(function() {
 	}
 	$(window).scroll(function() {  
 		var st = $(this).scrollTop();
-		//if (lastScrollTop >= 157) {
-//			$(".HeaderPage").addClass("scaleheader");
-//			$('.par').removeClass('disable');
-//			
-//		}
-//		else{
-//			$(".HeaderPage").removeClass("scaleheader");
-//			$('.par').removeClass('disable');
-//			$( '.par').removeClass( "hover" );
-//		}
 		if (st > lastScrollTop && st >= 157 ){
 			$(".HeaderPage").addClass("scaleheader");
 			$('.par').removeClass('disable');
@@ -158,4 +148,20 @@ $( document ).ready(function() {
 		}
     });
 	
+	if($('.icon_menu_right').length){
+		$('.div_menu_right').removeClass("Show");
+		$(".icon_menu_right").click(function() {
+			if($('.div_menu_right').hasClass("Show")){
+				$('.div_menu_right').removeClass("Show");
+				$('.offcanvas-collapse').removeClass("open");
+			}
+			else{
+				$('.div_menu_right').addClass("Show");
+				$('.offcanvas-collapse').removeClass("open");
+			}
+		});
+	}
+	$('.navbar-toggler').click(function() {
+		$('.div_menu_right').removeClass("Show");
+	});
 });

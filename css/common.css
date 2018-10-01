@@ -25,6 +25,10 @@
   background-image: url(../images/lang.png);
   background-image: -webkit-image-set(url(../images/lang.png) 1x, url(../images/lang@2x.png) 2x, url(../images/lang@3x.png) 3x);
 }
+.source-menu-right {
+  background-image: url(../images/menu_right.png);
+  background-image: -webkit-image-set(url(../images/menu_right.png) 1x, url(../images/menu_right@2x.png) 2x, url(../images/menu_right@3x.png) 3x);
+}
 .source-icon-truyenhinh {
   background-image: url(../images/truyenhinh.png);
   background-image: -webkit-image-set(url(../images/truyenhinh.png) 1x, url(../images/truyenhinh@2x.png) 2x, url(../images/truyenhinh@3x.png) 3x);
