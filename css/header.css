@@ -281,7 +281,7 @@
   left: 50%;
   bottom: 0;
   position: absolute;
-  margin-left: -10px;
+  margin-left: -7px;
   opacity: 1;
 }
 .Header_navigation .active > .txt {
@@ -304,13 +304,11 @@
 }
 .HeaderPage.scaleheader {
   height: 110px;
-  top: -40px;
-  -webkit-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+  top: -120px;
 }
 .HeaderPage.scaleheader .Header_navigation .navigation li.par .bg_navigation_2,
 .HeaderPage.scaleheader .Header_navigation li.active .bg_navigation_2 {
-  top: 70px;
+  top: -10px;
   height: 0;
   overflow: hidden;
   display: block;
@@ -320,7 +318,7 @@
 }
 .HeaderPage.scaleheader .Header_navigation .navigation li.par.hover .bg_navigation_2,
 .HeaderPage.scaleheader .Header_navigation .navigation li.par.active.hover .bg_navigation_2 {
-  top: 70px;
+  top: -10px;
   height: 48px;
   display: block;
   -webkit-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
@@ -340,6 +338,10 @@
 }
 .HeaderPage.scaleheader .Header_navigation .navigation li.par.hover > .txt {
   color: #0eb1aa !important;
+}
+.header_shadow .bg_navigation_2 {
+  -webkit-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
 }
 @media (hover: hover) {
   .Header_navigation .logo {
@@ -436,7 +438,7 @@
     left: 50%;
     bottom: 0;
     position: absolute;
-    margin-left: -10px;
+    margin-left: -7px;
   }
   .Header_navigation .active > .txt {
     color: #0eb1aa !important;
@@ -458,13 +460,13 @@
   }
   .HeaderPage.scaleheader {
     height: 110px;
-    top: -40px;
+    top: -120px;
     -webkit-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
     box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
   }
   .HeaderPage.scaleheader .Header_navigation .navigation li.par .bg_navigation_2,
   .HeaderPage.scaleheader .Header_navigation li.active .bg_navigation_2 {
-    top: 70px;
+    top: -10px;
     height: 0;
     overflow: hidden;
     display: block;
@@ -474,7 +476,7 @@
   }
   .HeaderPage.scaleheader .Header_navigation .navigation li.par:hover .bg_navigation_2,
   .HeaderPage.scaleheader .Header_navigation .navigation li.par.active:hover .bg_navigation_2 {
-    top: 70px;
+    top: -10px;
     height: 48px;
     display: block;
     -webkit-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
@@ -495,6 +497,57 @@
   .HeaderPage.scaleheader .Header_navigation .navigation li.par:hover > .txt {
     color: #0eb1aa !important;
   }
+}
+.collapse_item {
+  border-bottom: 1px solid rgba(41, 41, 43, 0.1);
+  padding: 4px 0;
+}
+.btn-danhmuc {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
+  position: relative;
+}
+.btn-danhmuc a {
+  color: rgba(0, 0, 0, 0.8);
+}
+.btn-danhmuc a:hover {
+  text-decoration: none;
+}
+.btn-danhmuc:after {
+  display: inline-block;
+  position: absolute;
+  right: 16px;
+  width: 0;
+  height: 0;
+  margin-left: .255em;
+  vertical-align: .255em;
+  content: "";
+  border-top: 6px solid;
+  border-right: 6px solid transparent;
+  border-bottom: 0;
+  border-left: 6px solid transparent;
+  color: rgba(0, 0, 0, 0.8);
+  top: 16px;
+}
+.offcanvas-collapse .card-body {
+  padding: 0;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.offcanvas-collapse .card-body li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
+}
+.offcanvas-collapse .card-body li a {
+  padding: 8px 32px;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 16px;
+  display: block;
+  font-weight: 500;
 }
 @media (max-width: 991px) {
   .Header_navigation .logo {
@@ -547,12 +600,12 @@
   }
   .menu_collapse .navbar-toggler {
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 8px;
+    left: 12px;
   }
   .navbar-toggler-icon {
-    width: 26px;
-    height: 27px;
+    width: 32px;
+    height: 32px;
     background-repeat: no-repeat;
     background-position: center center;
     background-image: url(../images/menu_mobile.png);

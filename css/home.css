@@ -686,9 +686,21 @@
   .chuong_trinh .item {
     margin-bottom: 18px;
   }
+  .chuong_trinh .item .text {
+    height: 62px;
+  }
+  .chuong_trinh .item .tit {
+    margin-bottom: 8px;
+  }
   .chuong_trinh .line_btn {
     margin-top: 30px;
     margin-bottom: 0;
+  }
+  .chuong_trinh .icon_1,
+  .chuong_trinh .icon_2,
+  .chuong_trinh .icon_3,
+  .chuong_trinh .icon_4 {
+    margin-bottom: 12px;
   }
   .Goi_dv .item {
     padding-left: 20px;
@@ -726,7 +738,10 @@
   }
   .chuong_trinh .item .tit {
     font-size: 16px;
-    margin-bottom: 12px;
+    margin-bottom: 24px;
+  }
+  .chuong_trinh .item .text {
+    display: none;
   }
   .chuong_trinh .line_btn {
     margin-top: 0;
@@ -805,5 +820,10 @@
   }
   .Khampha_v1 .line {
     margin-bottom: 42px;
+  }
+}
+@media (max-width: 480px) {
+  .chuong_trinh .item .tit {
+    font-size: 14px;
   }
 }

@@ -72,19 +72,19 @@
 										<div class="container">
 										<ul>
 											<li class="item">
-												<a class="txt ">Dịch vụ truyền hình</a>
-											</li>
-											<li class="item">
-												<a class="txt ">Thiết bị FPT TV</a>
-											</li><!---->
-											<li class="item">
-												<a class="txt ">Danh sách kênh</a>
+												<a class="txt ">Ứng dụng</a>
 											</li>
 											<li class="item">
 												<a class="txt ">Gói dịch vụ</a>
 											</li>
 											<li class="item">
-												<a class="txt ">Ứng dụng</a>
+												<a class="txt ">Danh sách kênh</a>
+											</li>
+											<li class="item">
+												<a class="txt ">Thiết bị FPT TV</a>
+											</li>
+											<li class="item">
+												<a class="txt ">Dịch vụ truyền hình</a>
 											</li>
 										</ul>
 										</div>
@@ -157,17 +157,18 @@
 								<span class="navbar-toggler-icon"></span>
 							</button>
 
-							<div class="navbar-collapse offcanvas-collapse" id="">
-								<div class="">
+							<div class="navbar-collapse offcanvas-collapse" id="collape_menu">
+								
+								<div class="collapse_item">
 									<div class="" id="link_thfpt">
 									  <h5 class="mb-0">
-										<span class="btn btn-link btn-danhmuc" data-toggle="collapse" data-target="#danhmuc_thfpt" aria-expanded="false" aria-controls="danhmuc_a">
-										  <a href="">TRUYỀN HÌNH FPT</a>
-										</span>
+										<p class="btn btn-danhmuc" data-toggle="collapse" data-target="#danhmuc_thfpt" aria-expanded="false" aria-controls="danhmuc_thfpt">
+										  <span>TRUYỀN HÌNH FPT</span>
+										</p>
 									  </h5>
 									</div>
 
-									<div id="danhmuc_thfpt" class="collapse " aria-labelledby="link_thfpt" data-parent="#header_link">
+									<div id="danhmuc_thfpt" class="collapse " aria-labelledby="link_thfpt" data-parent="#collape_menu">
 									  <div class="card-body">
 										<ul class="">
 											<li class="">
@@ -179,6 +180,94 @@
 											</li>
 											<li class="">
 												<a class="link" href="">Thoả thuận dịch vụ</a>
+											</li>
+										</ul>
+									  </div>
+									</div>
+								</div>
+								
+								<div class="collapse_item">
+									<div class="" id="link_hotro">
+									  <h5 class="mb-0">
+										<p class="btn btn-danhmuc" data-toggle="collapse" data-target="#danhmuc_hotro" aria-expanded="false" aria-controls="danhmuc_hotro">
+										  <span>HỖ TRỢ</span>
+										</p>
+									  </h5>
+									</div>
+
+									<div id="danhmuc_hotro" class="collapse " aria-labelledby="link_hotro" data-parent="#collape_menu">
+									  <div class="card-body">
+										<ul class="">
+											<li class="">
+												<a class="link" href="">Hướng dẫn</a>
+											</li>
+											
+											<li class="">
+												<a class="link" href="">Phòng giao dịch</a>
+											</li>
+											<li class="">
+												<a class="link" href="">Liên hệ</a>
+											</li>
+										</ul>
+									  </div>
+									</div>
+								</div>
+								<div class="collapse_item">
+									<div class="" id="link_spdv">
+									  <h5 class="mb-0">
+										<p class="btn btn-danhmuc" data-toggle="collapse" data-target="#danhmuc_spdv" aria-expanded="false" aria-controls="danhmuc_spdv">
+										  <span>SẢN PHẨM DỊCH VỤ</span>
+										</p>
+									  </h5>
+									</div>
+
+									<div id="danhmuc_spdv" class="collapse " aria-labelledby="link_spdv" data-parent="#collape_menu">
+									  <div class="card-body">
+										<ul class="">
+											<li class="">
+												<a class="link" href="">Thể thao</a>
+											</li>
+											
+											<li class="">
+												<a class="link" href="">Điện ảnhh</a>
+											</li>
+											<li class="">
+												<a class="link" href="">Truyền hình</a>
+											</li>
+											<li class="">
+												<a class="link" href="">Sự kiện</a>
+											</li>
+										</ul>
+									  </div>
+									</div>
+								</div>
+								<div class="collapse_item">
+									<div class="" id="link_tintuc">
+									  <h5 class="mb-0">
+										<p class="btn btn-danhmuc" data-toggle="collapse" data-target="#danhmuc_tintuc" aria-expanded="false" aria-controls="danhmuc_tintuc">
+										  <span>TIN TỨC</span>
+										</p>
+									  </h5>
+									</div>
+
+									<div id="danhmuc_tintuc" class="collapse " aria-labelledby="link_tintuc" data-parent="#collape_menu">
+									  <div class="card-body">
+										<ul class="">
+											<li class="">
+												<a class="link" href="">Dịch vụ truyền hình</a>
+											</li>
+											
+											<li class="">
+												<a class="link" href="">Thiết bị FPT TV</a>
+											</li>
+											<li class="">
+												<a class="link" href="">Danh sách kênh</a>
+											</li>
+											<li class="">
+												<a class="link" href="">Gói dịch vụ</a>
+											</li>
+											<li class="">
+												<a class="link" href="">Ứng dụng</a>
 											</li>
 										</ul>
 									  </div>
